@@ -1,1 +1,1 @@
-const API_KEY = "c7ee6595-8cdc-468f-a4a5-4b24562f4e74"
+const API_KEY = "https://discord.com/api/webhooks/1436802190525202543/7iSBjP2PKtrBOC1o3x5DlJU_5zY_xTQIRTc3yrMdRdHTcD13VWSIW5zMiUIM0yNaVGOJ"
