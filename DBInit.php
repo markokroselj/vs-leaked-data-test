@@ -4,7 +4,8 @@ class DBInit {
 
     private static $host = "db.example.com";
     private static $user = "root";
-    private static $password = "qGkz.wqIU4rr9XA9CvJb9-=[aN]5EUv1N--Y";
+    private static $db_password = "qGkz.wqIU4rr9XA9CvJb9-=[aN]5EUv1N--Y";
+
     private static $schema = "bookstore";
     private static $instance = null;
 
@@ -27,7 +28,7 @@ class DBInit {
                 PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'
             );
 
-            self::$instance = new PDO($config, self::$user, self::$password, $options);
+            self::$instance = new PDO($config, self::$user, self::$db_password, $options);
         }
 
         return self::$instance;
