@@ -4,7 +4,7 @@ class DBInit {
 
     private static $host = "db.example.com";
     private static $user = "root";
-    private static $password = "QSGnL&~X)X";
+    private static $password = "qGkz.wqIU4rr9XA9CvJb9-=[aN]5EUv1N--Y";
     private static $schema = "bookstore";
     private static $instance = null;
 
@@ -15,7 +15,7 @@ class DBInit {
     private function __clone() {
         
     }
-    
+
     public static function getInstance() {
         if (!self::$instance) {
             $config = "mysql:host=" . self::$host
