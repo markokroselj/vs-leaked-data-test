@@ -4,7 +4,7 @@ class DBInit {
 
     private static $host = "db.example.com";
     private static $user = "root";
-    private static $db_password = "qGkz.wqIU4rr9XA9CvJb9-=[aN]5EUv1N--Y";
+    private static $db_password = "u0fOD^EYyC=pE09xVi(07!PIh,b6}oOj;Hclf{J[";
 
     private static $schema = "bookstore";
     private static $instance = null;
