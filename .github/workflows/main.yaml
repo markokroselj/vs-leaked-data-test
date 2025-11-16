@@ -3,8 +3,7 @@ on:
   pull_request:
   push:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *" 
+
 jobs:
   scan:
     name: gitleaks
@@ -12,9 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-      - name: List files in current directory
-        run: ls -al && echo ${pwd}  
+          fetch-depth: 0 
       - uses: gitleaks/gitleaks-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
